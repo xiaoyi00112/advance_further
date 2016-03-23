@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task_advance_further</title>
+    <style>
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,img
+		/*初始化*/
+		{
+			margin:0;padding:0;
+			box-sizing:border-box;
+			-moz-box-sizing:border-box; /* Firefox */
+			-webkit-box-sizing:border-box; /* Safari */
+		}
+		body{
+		font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+		padding:20px;
+		}
+		.task3_container,.left_team_name,.center_introduce,
+		.right_team_picture/*为容器都设置padding20px，背景色和边框*/
+		{
+			padding:20px;
+			border:1px solid #999;
+			background-color:#eee;
+        }
+		.task3_container{
+			width:100%;
+			overflow:hidden;
+			margin:auto;
+
+		}
+        .left_team_name/*左侧*/
+		{
+            float:left;
+            width:200px;
+        }     
+		.center_introduce/*中间层*/
+		{		
+            margin-left:220px;
+            margin-right:140px;
+			overflow:hidden;
+        }
+		.right_team_picture/*右侧*/
+		{
+            float:right;
+            width:120px;
+		}  
+		.team_name{
+			font-size:15px;
+			font-weight:600;
+		}
+        .team_logo{
+            width:80px;
+            height:80px;
+        }
+		.personal_logo{
+			width:80px;
+			height:80px;
+		}
+		.left_team_name .team_logo{
+			float:left;
+			margin-right:18px;
+		}
+		.center_introduce ul li{	
+			margin:0 0 0 20px;
+			font-size:20px;
+		}
+		.center_introduce p{
+			line-height:15px;
+			text-indent:2em;
+		}
+		.right_team_picture .personal_logo{
+			margin-top:20px;
+		}
+        .right_team_picture .personal_logo:first-child{
+			margin:0;
+		}
+    </style>
+</head>
+<body>
+	<div class="task3_container">
+		<div class="left_team_name">
+			<img class="team_logo" src="team_logo.jpg"/>
+			<span class="team_name">advance<br>_further</span>
+		</div>	
+		
+		<div class="right_team_picture">
+			<img class="personal_logo" src="personal_logo.jpg"/>
+			<img class="personal_logo" src="personal_logo.jpg"/>
+			<img class="personal_logo" src="personal_logo.jpg"/>
+			<img class="personal_logo" src="personal_logo.jpg"/>
+			<img class="personal_logo" src="personal_logo.jpg"/>
+			<img class="personal_logo" src="personal_logo.jpg"/>
+		</div>
+		<div class="center_introduce">
+			<h3>advance further</h3>
+			<ul>
+				<li>高书冰</li>
+				<li>王琰</li>
+				<li>孙雪姣</li>
+			</ul>
+			<section>
+				<p>we are a good team,we will do our best to do the work.这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落</p>
+				<p>Four short words sum up what has lifted most successful individuals above the crowd:a little bit more</p>
+				<p>成功的秘诀就是四个简单的字：多一点点.</p>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
